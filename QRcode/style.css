@@ -1,0 +1,44 @@
+* {
+}
+
+body {
+  background-color: rgb(213 225 239);
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding-top: 50px;
+}
+
+.container {
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  padding: 12px;
+  border-radius: 16px;
+  background-color: rgb(255 255 255);
+}
+.imageContainer {
+  display: flex;
+}
+.imageContainer img {
+  height: 230px;
+  flex: 1;
+  border-radius: 15px;
+}
+
+.text-content {
+    padding: 0 15px;
+}
+
+.text-content p, .text-content h3 {
+    font-family: 'Outfit', sans-serif;
+}
+.text-content p {
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    
+}
