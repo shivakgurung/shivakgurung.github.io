@@ -19,7 +19,6 @@
     />
     <link rel="stylesheet" href="Style.css" />
 
-
     <title>Frontend Mentor | Results summary component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -42,18 +41,56 @@
             <h2>76</h2>
             <p>of 100</p>
           </div>
-          <h2>Great</h2>
-          <p>
+          <h2 class="remarks">Great</h2>
+          <p class="comment">
             You scored higher than 65% of the people who have taken these tests.
           </p>
         </div>
         <div class="summary child">
           <h2>Summary</h2>
-          <div><h3>Reaction 80 <span>/ 100</span></h3></div>
-          <div><h3>Memory 92 <span>/ 100</span></h3></div>
-          <div><h3>Verbal 61 <span>/ 100</span></h3></div>
-          <div><h3>Visual 72 <span>/ 100</span></h3></div>
-          <button>Continue</button>
+          <div class="summary-content">
+
+            <div class="row reaction">
+              <div class="left">
+                <img src="./assets/images/icon-reaction.svg" alt="SVG Image" />
+                <h3>Reaction</h3>
+              </div>
+              <div class="right">
+                <h3>80 <span>/ 100</span></h3>
+              </div>
+            </div>
+
+            <div class="row memory">
+              <div class="left">
+                <img src="./assets/images/icon-memory.svg" alt="SVG Image" />
+                <h3>Memory</h3>
+              </div>
+              <div class="right">
+                <h3>92 <span>/ 100</span></h3>
+              </div>
+            </div>
+
+            <div class="row verbal">
+              <div class="left">
+                <img src="./assets/images/icon-verbal.svg" alt="SVG Image" />
+                <h3>Verbal</h3>
+              </div>
+              <div class="right">
+                <h3>61 <span>/ 100</span></h3>
+              </div>
+            </div>
+
+            <div class="row visual">
+              <div class="left">
+                <img src="./assets/images/icon-visual.svg" alt="SVG Image" />
+                <h3>Visual</h3>
+              </div>
+              <div class="right">
+                <h3>72 <span>/ 100</span></h3>
+              </div>
+            </div>
+            <button>Continue</button>
+          </div>
         </div>
         <!-- <div class="attribution">
           Challenge by
