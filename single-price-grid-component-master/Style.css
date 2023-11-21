@@ -1,0 +1,36 @@
+:root {
+  --dark-cyan: rgb(41, 179, 176);
+  --light-cyan: rgb(74 190 189);
+  --bright-yellow: rgb(191, 222, 51);
+  --yellow: rgb(202 223 96);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+.box {
+  flex: 1;
+  border: 1px solid black;
+}
+.second{
+    display: flex;
+}
+.child{
+    border: 1px solid grey;
+}
